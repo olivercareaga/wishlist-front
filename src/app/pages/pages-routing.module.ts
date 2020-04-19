@@ -1,12 +1,11 @@
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 
-import { DrawComponent } from './draw/draw.component';
-
+import { PagesComponent } from './pages.component';
 
 const routes: Routes = [{
   path: '',
-  component: DrawComponent,
+  component: PagesComponent,
   children: [
     {
       path: 'draw',
